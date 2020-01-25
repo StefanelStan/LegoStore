@@ -1,16 +1,16 @@
 package rc.legostore.model;
 
 public class ProductReview {
-    private String username;
+    private String userName;
     private int rating;
 
-    public ProductReview(final String username, final int rating) {
-        this.username = username;
+    public ProductReview(final String userName, final int rating) {
+        this.userName = userName;
         this.rating = rating;
     }
 
-    public String getUsername() {
-        return username;
+    public String getUserName() {
+        return userName;
     }
 
     public int getRating() {
